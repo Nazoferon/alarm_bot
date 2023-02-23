@@ -27,12 +27,14 @@ async def normal_handler(event):  # Обробляємо подію
             print(event.message.peer_id, event.message.message)  # Роздруковуемо в консоль id чату/групи та текст знайденного повідомлення (не обов'язково)
             # await client.send_file(target_can, 'https://i.gifer.com/origin/4e/4e3431b51b9a7587feade70da83f2216.gif')
             # await client.send_message(target_can, event.message)   # Пересилаємо знайдене повідомлення
+            await bot.send_animation(chat_id=chat_bezbab, animation='https://i.gifer.com/origin/4e/4e3431b51b9a7587feade70da83f2216.gif')
             await bot.send_message(chat_id=chat_bezbab, text=event.message.text)
             break
         if key_wordss_offalarm[i] in event.message.message:  # Перевіряємо кожне слово на наявність його в нашому повідомленні
             print(event.message.peer_id, event.message.message)  # Роздруковуемо в консоль id чату/групи та текст знайденного повідомлення (не обов'язково)
             # await client.send_file(target_can, 'https://media.tenor.com/cKrq7zekafEAAAAC/відбійповітряноїтривоги-їжак.gif')
             # await client.send_message(target_can, event.message)
+            await bot.send_animation(chat_id=chat_bezbab, animation='https://media.tenor.com/cKrq7zekafEAAAAC/відбійповітряноїтривоги-їжак.gif')
             await bot.send_message(chat_id=chat_bezbab, text=event.message.text)
             break
  
