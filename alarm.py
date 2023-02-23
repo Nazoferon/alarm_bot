@@ -1,6 +1,7 @@
 from telethon import TelegramClient, events  # Імпортуємо потрібні бібліотеки
 import aiogram
 from aiogram import Bot, Dispatcher, types, executor
+from datetime import datetime
 
 # підключаємо бота
 bot = Bot(token='6215212505:AAFjRsEP7YbpKEC_OPQZFbRH3gD-dGe3UyA')
