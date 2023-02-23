@@ -3,7 +3,7 @@ import aiogram
 from aiogram import Bot, Dispatcher, types, executor
 
 # підключаємо бота
-bot = Bot(token='6196748470:AAHB2V3Ron3PozsGZzaVjITCbppHwUPDTZA')
+bot = Bot(token='6215212505:AAFjRsEP7YbpKEC_OPQZFbRH3gD-dGe3UyA')
 dp = Dispatcher(bot)
  
 api_id = 27076955  # Вводимо id нашого телеграм клієнта, та записуємо номер щоб не загубити 
