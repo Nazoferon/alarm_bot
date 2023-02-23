@@ -1,1 +1,0 @@
-worker: alarm.py
