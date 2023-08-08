@@ -1,2 +1,0 @@
-This code was written for the diploma thesis of a professional junior bachelor at the institution of VSP "RFK NUBiP of Ukraine".
-The functionality of the Telegram bot is placed in this code. This bot was created for clients of the Internet company "Novovolynske TTI".
